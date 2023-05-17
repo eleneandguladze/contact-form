@@ -57,7 +57,7 @@ header a {
 
 .contactinfo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
     margin-top: 50px;
 }
@@ -68,6 +68,7 @@ header a {
     font-weight: 500;
     color: #000000;
     text-align: center;
+    margin-top: 15px;
 }
 
 .contactinfo h6 {
@@ -76,6 +77,7 @@ header a {
     font-weight: 600;
     color: #B1B1B1;
     text-align: center;
+    margin-top: 15px;
 }
 
 #photos p {
