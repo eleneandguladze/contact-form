@@ -1,0 +1,116 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 76px;
+}
+
+header a {
+    margin-top: 52px;
+    margin-left: 139px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5863F8; 
+}
+
+.contact {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    width: 376px;
+    font-size: 42px;
+    height: 121px;
+    font-weight: 500;
+    margin-left: 139px;
+    margin-top: 3px;
+    line-height: 63px;
+}
+
+.description {
+    width: 720px;
+    height: 288px;
+    border: 2px #E8E8E8; 
+    margin-left: 139px;
+    margin-top: 50px;
+    background-color: #F8F8F8;
+}
+
+.littleclass {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: -288px;
+    margin-left: 875px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.littleclass form {
+    width: 352px;
+    height: 60px;
+    background-color: #F8F8F8;
+}
+
+.send {
+    color: #5863F8;
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.contactinfo h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+}
+
+.contactinfo h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #B1B1B1;
+    text-align: center;
+}
+
+#photos p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #5863F8;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+#photos h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-left: 140px; 
+    width: 551px;
+    height: 121px;
+    line-height: 63px;
+}
+
+.image {
+    width: 352px;
+    height: 352px;
+    gap: 85px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    height: 360px;
+}
