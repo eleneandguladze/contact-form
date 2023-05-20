@@ -170,4 +170,78 @@ footer {
     background-color: #121212;
     height: 100%;
     width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.footericons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+}
+
+.one h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 148px;
+    height: 36px;
+}
+
+.one p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    width: 264px;
+    height: 84px;
+}
+.two {
+    margin-left: 200px;
+}
+
+.two h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    width: 105px;
+    height: 27px;
+}
+
+.two li {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infocontact {
+    margin-left: 121px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.infocontact h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px; 
+}
+
+.infocontact div {
+    display: flex;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
 }
