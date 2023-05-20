@@ -75,9 +75,99 @@ form input {
     color: #CECECE;
 }
 
-form .littleclass input[type="sumbit"] {
+form .littleclass input[type="submit"] {
     background-color: #5863F8;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    transition: all .3s ease-in-out;
+}
+
+form .littleclass input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #5863F8;
+    color: #5863F8
+}
+
+#contactinfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.circle {
+    background-color: #5863F8;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contactinfo h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#contactinfo h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #B1B1B1;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#photos p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #5863F8;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+#photos h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-left: 140px; 
+    width: 551px;
+    height: 121px;
+    line-height: 63px;
+}
+
+.image {
+    width: 352px;
+    height: 352px;
+    gap: 85px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding: 140px 62px;
+    background-color: #121212;
+    height: 100%;
+    width: 100%;
 }
