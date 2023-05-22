@@ -261,7 +261,7 @@ footer {
     }
     #photos {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         /* align-items: flex-start; */
         /* text-align: center; */
